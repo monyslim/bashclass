@@ -13,7 +13,7 @@ provider "aws" {
 
 resource "aws_key_pair" "entry_key_pair" {
   key_name   = "entry_key"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCnVAUVMrJa7LYrK5l/3wL97/IZ0GFX29su9/YGiuPeYGYegTuICQ6Yr2BB/4YP0SKAL4FZgWMalOLhKTVInDSzFxOEtwwCWkF+CF6j88oV9+Gi8jU3Paj9nx9Ib8nbLN5Osw7OelivTpVb9VyDrJKFDHQFO+LL1ddIcBf2b95icOjl43K+ZmaNhnSQNLoyiR+znH6csPGDl9gwZ2rxrBwCYrSfhdwL/QJCHSB2SP++nRRyuhtWoeqqSy/H3AiKWs5L1PeTwWO4DPr80mukSifX1LHPv6iyBKutf1+X2oO8ZfKxq0r1ark1/P9XagcEA7SRENUnmJxcp2++xry5tKhgwO1zeaUZwhnm8l4DH2+1CBUtMevaQziXhdeMNerVQIMB8V9u5JKaIjHmU0hUL7VTIwvVFjKIXp6a1yj7/Wnf4M9pEt4mr/XbzwE6EzvkFzAOLTgf5qaaE9hl8XPqKVolaa0tsPr6aZr3NAu4GE473q34M3CRzN/GWdBBd+Dbe2U= david@david-Latitude-E7470"
+  public_key = ""
 }
 
 resource "aws_security_group" "create_entry_sg" {
