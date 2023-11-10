@@ -1,0 +1,4 @@
+user=bode:password=password1
+user=sade:password=password2
+user=akin:password=password3
+user=titi:password=password4
